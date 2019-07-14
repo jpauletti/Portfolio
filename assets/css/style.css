@@ -252,6 +252,12 @@ input::placeholder {
     padding-bottom: 1px;
 }
 
+@media screen and (max-width: 767px) {
+    .contact-btn {
+        margin-bottom: 1rem;
+    }
+}
+
 
 /* ABOUT PAGE */
 
@@ -275,4 +281,15 @@ input::placeholder {
 
 .col-md-1 {
     width: auto;
+}
+
+.about-icons .col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+@media screen and (max-width: 767px) {
+    .about-extra {
+        margin-top: 1.5rem;
+    }
 }
