@@ -15,6 +15,10 @@ h1 {
     margin-top: 2.25rem !important;
 }
 
+.u {
+    text-decoration: underline;
+}
+
 i {
     color: rgba(0,0,0,0.9);
 }
